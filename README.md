@@ -12,8 +12,8 @@
 
 `$ sudo EXTERNAL_URL="http://192.168.0.110" yum install -y gitlab-ee`
 
-`$ sudo vim /etc/gitlab/gitlab.rb`
+For any modification edit the gitlab.rb file and reconfigure
 
-`$ sudo cat /etc/gitlab/gitlab.rb | grep -i external_url`
+`$ sudo vim /etc/gitlab/gitlab.rb`
 
 `$ sudo gitlab-ctl reconfigure`
