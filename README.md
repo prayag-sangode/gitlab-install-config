@@ -20,4 +20,5 @@ For any modification edit the gitlab.rb file and reconfigure
 `$ sudo gitlab-ctl reconfigure`
 
 For password check below file and login as root
-`cat /etc/gitlab/initial_root_password`
+
+`$ cat /etc/gitlab/initial_root_password`
