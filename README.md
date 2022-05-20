@@ -1,7 +1,7 @@
 
 # GitLab installation on CentOS7
-cat /etc/redhat-release
-sudo yum install -y curl policycoreutils-python openssh-server perl
+> cat /etc/redhat-release
+> sudo yum install -y curl policycoreutils-python openssh-server perl
 sudo systemctl status firewalld
 sudo yum install postfix
 curl https://packages.gitlab.com/install/repositories/gitlab/gitlab-ee/script.rpm.sh | sudo bash
