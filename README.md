@@ -1,6 +1,6 @@
 
 # GitLab installation on CentOS7
-> cat /etc/redhat-release
+<sub> cat /etc/redhat-release </sub>
 
 > sudo yum install -y curl policycoreutils-python openssh-server perl
 
