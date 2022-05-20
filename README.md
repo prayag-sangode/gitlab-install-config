@@ -2,7 +2,7 @@
 # GitLab installation on CentOS7
 <sup> cat /etc/redhat-release </sup>
 
-> sudo yum install -y curl policycoreutils-python openssh-server perl
+`sudo yum install -y curl policycoreutils-python openssh-server perl`
 
 > sudo systemctl status firewalld
 
