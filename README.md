@@ -24,7 +24,7 @@ For password check below file and login as root
 
 `$ cat /etc/gitlab/initial_root_password`
 
-# Gitlab runner installation on CentOS7
+# Gitlab runner installation on CentOS7 - Manual steps
 Follow below steps to install gitlab runner
 `$ curl -LJO "https://gitlab-runner-downloads.s3.amazonaws.com/latest/rpm/gitlab-runner_${arch}.rpm`
 
