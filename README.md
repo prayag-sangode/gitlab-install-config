@@ -29,4 +29,8 @@ Follow below steps to install gitlab runner
 
 `$ curl -L https://packages.gitlab.com/install/repositories/runner/gitlab-runner/script.rpm.sh | sudo bash`
 
-`$ yum -y localinstall gitlab-runner`
+`$ yum -y install gitlab-runner`
+
+After installation register runner on Gitlab server
+
+`$ sudo service gitlab-runner status`
