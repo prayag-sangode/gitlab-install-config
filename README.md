@@ -34,3 +34,5 @@ Follow below steps to install gitlab runner
 After installation register runner on Gitlab server
 
 `$ sudo service gitlab-runner status`
+
+`$ gitlab-runner register`
