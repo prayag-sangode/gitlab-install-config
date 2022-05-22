@@ -1,4 +1,7 @@
 
+# GitLab installation on CentOS7 - Using bash script
+`$ curl https://raw.githubusercontent.com/prayag-sangode/gitlab-install-config/main/gitlab-install.sh | sudo bash`
+
 # GitLab installation on CentOS7 - Manual steps
 Follow below steps to install gitlab 
 
