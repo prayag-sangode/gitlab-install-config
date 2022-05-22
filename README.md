@@ -39,3 +39,8 @@ After installation register runner on Gitlab server
 
 or 
 `$ sudo gitlab-runner register --url http://192.168.0.110/ --registration-token $REGISTRATION_TOKEN`
+
+# Gitlab Container Registry
+Follow below steps to install gitlab runner
+
+`Project >> Settings >> Repository Settings >> Deploy Toekns`
