@@ -40,7 +40,7 @@ After installation register runner on Gitlab server
 or 
 `$ sudo gitlab-runner register --url http://192.168.0.110/ --registration-token $REGISTRATION_TOKEN`
 
-# Gitlab Container Registry
+# Gitlab Container Registry - Deploy tokens allow access to packages, your repository, and registry images.
 Follow below steps to install gitlab runner
 
-`Project >> Settings >> Repository Settings >> Deploy Toekns`
+`Project >> Settings >> Repository Settings >> Deploy Tokens`
