@@ -43,7 +43,18 @@ After installation register runner on Gitlab server
 or 
 `$ sudo gitlab-runner register --url https://gitlab.example.com/ --registration-token $REGISTRATION_TOKEN`
 
-# Gitlab Container Registry .
+# Gitlab Container Registry 
+
 Follow below steps to deploy tokens
 
-`Project >> Settings >> Repository Settings >> Deploy Tokens`
+`Project >> Packages & Registries >> Container Registry`
+
+Authenticate to the Container Registry by using your GitLab username and password
+
+`docker login gitlab.example.com:5050`
+
+You can add an image to this registry with the following commands:
+
+`docker build -t gitlab.example.com:5050/gitlab-instance-628ca2a0/html-site .`
+
+`docker push gitlab.hostbread.com:5050/gitlab-instance-628ca2a0/html-site`
