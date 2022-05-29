@@ -57,4 +57,4 @@ You can add an image to this registry with the following commands:
 
 `docker build -t gitlab.example.com:5050/gitlab-instance-628ca2a0/html-site .`
 
-`docker push gitlab.hostbread.com:5050/gitlab-instance-628ca2a0/html-site`
+`docker push gitlab.example.com:5050/gitlab-instance-628ca2a0/html-site`
